@@ -13,11 +13,10 @@
 - for android (I have a few old ones we can use)
   - best: apk app for easy mobile deployment 
   - rather not web-app: this avoids having to setup web-server, ssl, ...
-- [Camera interface](skan#4)
-- [Decrypt QR](skan#3)
-- 👉 [**Regenerate QR from URL**](skan#2)
-  - **first requirement**
-- [Label printer](skan#1)
+- [Camera interface](https://github.com/arnerb/skan/issues/4)
+- [Decrypt QR](https://github.com/arnerb/skan/issues/3)
+- [Regenerate QR from URL](https://github.com/arnerb/skan/issues/2)
+- [Label printer](https://github.com/arnerb/skan/issues/1)
   - evaluating.. (will update issue soon)
   - expect ca. 3 weeks delivery
 
