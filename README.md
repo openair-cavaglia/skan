@@ -16,8 +16,8 @@
 - [Camera interface](skan#4)
 - [Decrypt QR](skan#3)
 - [**Regenerate QR from URL**](skan#2)
-  - first requirement
--[Label printer](skan#1)
+  - **first requirement**
+- [Label printer](skan#1)
   - evaluating.. (will update issue soon)
   - expect ca. 3 weeks delivery
 
