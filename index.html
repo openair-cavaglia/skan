@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+  <title>Skan</title>
+  <link rel="stylesheet" href="./src/styles.css" />
+  <link rel="stylesheet" href="./src/print_classes.css" />
+</head>
+<body>
+    <div class=noprint>
+    <div id="container">
+        <h1>QR skan</h1>
+        <a id="btn-scan-qr">
+            <img src="./src/logoOPC.png">
+        </a>
+        <canvas hidden="" id="qr-canvas"></canvas>
+        <div id="outputData" hidden=""></div>
+    </div>
+    </div>
+        <iframe id="2print" class="print_this"></iframe>
+    <script src="./src/qr_packed.js"></script>
+    <script src="./src/qrCodeScanner.js"></script>
+</body>
+</html>

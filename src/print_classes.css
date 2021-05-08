@@ -1,0 +1,14 @@
+.print_this{display: block;
+   height:80pt;
+   width:80pt;
+   padding-right: 10pt;
+   padding-top: 13pt;
+   padding-left: 5pt;
+   margin: auto;
+   border: none;
+   page-break-after:avoid;
+   page-break-inside:avoid}
+
+@media print {
+ .noprint{display: none;}
+}
