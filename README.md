@@ -1,3 +1,5 @@
+For mobile testing setup, please see: mobile testing #11
+
 # Skan 
 > Idea: use Eventfrog's full functionality with online registration, purchase, statistics, ... but adapt it to create a simple, working self check-in/ check-out solution with the openair's bracelets  
 
