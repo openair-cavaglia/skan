@@ -25,6 +25,10 @@ qr.callback = (res) => {
     }
   };
 
+  const onError = (reason) => {
+    alert("Couldn't find a webcam connected.");
+  };
+
   btnScanQR.onclick = () => {
   navigator.mediaDevices
     .getUserMedia({ video: { facingMode: "environment" } })
@@ -38,7 +42,7 @@ qr.callback = (res) => {
       video.play();
       tick();
       scan();
-    });
+    }, onError);
 };
 
 function tick() {
