@@ -23,4 +23,4 @@ For mobile testing setup, please see issue [#11](https://github.com/openair-cava
   - expect ca. 3 weeks delivery
 
 
-for tests: use [tickets.pdf](https://github.com/arnerb/skan/files/6409026/tickets.pdf)
+for tests: use [tickets.pdf](https://github.com/openair-cavaglia/skan/files/6570742/tickets.pdf)
