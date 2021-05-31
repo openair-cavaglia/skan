@@ -12,15 +12,13 @@ For mobile testing setup, please see issue [#11](https://github.com/openair-cava
 
 ## Requirements
 - ready to test by 1st of June
-- for android (I have a few old ones we can use)
-  - best: apk app for easy mobile deployment 
-  - rather not web-app: this avoids having to setup web-server, ssl, ...
+- should work for android (I have a few old ones we can use)
+   - web-app via github pages, authentication via Firebase
 - [Camera interface](https://github.com/arnerb/skan/issues/4)
 - [Decrypt QR](https://github.com/arnerb/skan/issues/3)
 - [Regenerate QR from URL](https://github.com/arnerb/skan/issues/2)
 - [Label printer](https://github.com/arnerb/skan/issues/1)
   - evaluating.. (will update issue soon)
   - expect ca. 3 weeks delivery
-
 
 for tests: use [tickets.pdf](https://github.com/openair-cavaglia/skan/files/6570742/tickets.pdf)
