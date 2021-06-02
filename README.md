@@ -13,7 +13,7 @@ For mobile testing setup, please see issue [#11](https://github.com/openair-cava
 ## Requirements
 - ready to test by 1st of June
 - should work for android (I have a few old ones we can use)
-   - web-app via github pages, authentication via Firebase
+   - web-app via github pages
 - [Camera interface](https://github.com/arnerb/skan/issues/4)
 - [Decrypt QR](https://github.com/arnerb/skan/issues/3)
 - [Regenerate QR from URL](https://github.com/arnerb/skan/issues/2)
