@@ -69,7 +69,7 @@ function regenerate() {
     oHideFrame.src = qr_url;
     outputData.innerHTML = qr_url;
     console.log(`QR code URL: ${qr_url}`);
-    window.addEventListener("load", print());
+    print();
   } catch (e) {
     console.log(`error in regenerate: ${e}`);
   }
