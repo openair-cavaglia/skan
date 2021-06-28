@@ -54,8 +54,8 @@ function tick() {
 function scan() {
   try {
     qr.decode();
-    regenerate();
     scanning = false;
+    regenerate();
   } catch (e) {
     setTimeout(scan, 300);
   }
@@ -73,4 +73,8 @@ function regenerate() {
   } catch (e) {
     console.log(`error in regenerate: ${e}`);
   }
+}
+
+function timeRefresh(time) {
+  setTimeout("scanning && location.reload(true);", time);
 }
