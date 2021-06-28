@@ -6,10 +6,12 @@ const canvas = canvasElement.getContext("2d");
 const outputData = document.getElementById("outputData");
 const btnScanQR = document.getElementById("btn-scan-qr");
 
+let eventFrogUrl = "";
 let scanning = false;
 
 qr.callback = (res) => {
   if (res) {
+    eventFrogUrl = res;
     outputData.innerText = res;
     scanning = false;
 
@@ -63,6 +65,7 @@ function scan() {
 
 function regenerate() {
   try {
+    new QRCode(document.getElementById("qr_offline"), { text: eventFrogUrl, width: 100, height: 100, correctLevel : QRCode.CorrectLevel.L });
     let qr_url = outputData.innerHTML.replace(/&amp;/g, "%26");
     qr_url = `https://api.qrserver.com/v1/create-qr-code/?data=${qr_url}&ecc=L&format=svg&size=80x80`;
     let oHideFrame = document.getElementById("2print");
