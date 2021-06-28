@@ -64,7 +64,7 @@ function scan() {
 function regenerate() {
   try {
     let qr_url = outputData.innerHTML.replace(/&amp;/g, "%26");
-    qr_url = `https://api.qrserver.com/v1/create-qr-code/?data=${qr_url}&ecc=L&format=svg&size=100x100`;
+    qr_url = `https://api.qrserver.com/v1/create-qr-code/?data=${qr_url}&ecc=L&format=svg&size=80x80`;
     let oHideFrame = document.getElementById("2print");
     oHideFrame.src = qr_url;
     outputData.innerHTML = qr_url;
