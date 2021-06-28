@@ -76,5 +76,5 @@ function regenerate() {
 }
 
 function timeRefresh(time) {
-  setTimeout("scanning && location.reload(true);", time);
+  scanning ? setTimeout(timeRefresh(time), time) : setTimeout("location.reload(true);", time);
 }
